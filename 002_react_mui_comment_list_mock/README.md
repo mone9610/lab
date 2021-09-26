@@ -50,6 +50,7 @@ $ npx create-react-app test --template=typescript
 Appの作成が終わったら、yarnを使ってパッケージを取得しましょう。
 ```
 $ yarn add @material-ui/core @material-ui/icons moment
+$ yarn start
 ```
 ### ③データファイルの作成  
 「投稿」と「ユーザー」を表すデータファイルを作成しましょう。
