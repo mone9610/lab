@@ -34,6 +34,11 @@ JavaSciriptのArrayオブジェクトの2つのメソッドを上手く利用し
 - [Array.prototype.find()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 コード例
+```
+{posts?.map((post) => {
+          const found = users?.find((user) => post.user_id === user.id);
+          ....
+```
 
 ## 詳細
 ### ①Reactアプリの作成  
